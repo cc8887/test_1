@@ -25,8 +25,7 @@ program test_1
 use fuck 
     implicit none
     integer::i,j
-    !real::a(3,3),loads(20,20),c(-1:10),bb(3,3);
-    !real,allocatable::a(:,:)
+    real :: u =1;
     real:: vf(3),v(2,2);
     real::c,d,e,r,f,b;
     REAL(8),ALLOCATABLE::A(:,:)
@@ -38,7 +37,7 @@ use fuck
    write(10,*)fileName;
    close(10);
    open (10 , file = 'aaa.dat' , status = 'replace' ,action ='read');
-   
+   !ddddddddddddddd
    read(10,unit = 'rewind')fileName_tamp;
    open(11 , file = fileName_tamp , status = 'new' ,action ='read');
 
