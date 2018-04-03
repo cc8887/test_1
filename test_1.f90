@@ -40,7 +40,7 @@ use fuck
    !ddddddddddddddd
    read(10,unit = 'rewind')fileName_tamp;
    open(11 , file = fileName_tamp , status = 'new' ,action ='read');
-
+    !dddd
    !print *,c,d,e,r,f,b
     !pause
 
